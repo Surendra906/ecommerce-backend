@@ -108,40 +108,9 @@ src/main/java
 ├── exception
 └── config
 
-## How To Run Locally
 
-### 1. Clone Repository
 
-```bash
-git clone https://github.com/Surendra906/ecommerce-backend.git
-```
-
-### 2. Navigate To Project
-
-```bash
-cd ecommerce-backend
-```
-
-### 3. Configure MySQL
-
-Create a database:
-
-```sql
-CREATE DATABASE ecommerce_db;
-```
-
-Update `application.properties`:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
-spring.datasource.username=root
-spring.datasource.password=your_password
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
-
-### 4. Run Application
+### . Run Application
 
 ```bash
 mvn spring-boot:run
